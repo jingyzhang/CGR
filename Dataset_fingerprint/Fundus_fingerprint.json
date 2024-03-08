@@ -1,0 +1,13 @@
+{
+    "modality": "Fundus",
+    "target_spacing": [
+        1,
+        1
+    ],
+    "num_class": 3,
+    "labels": {
+        "background": 0,
+        "optic cup": 1,
+        "optic disc": 2
+    }
+}

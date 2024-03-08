@@ -1,0 +1,14 @@
+{
+    "modality": "MRI",
+    "target_spacing": [
+        1,
+        1
+    ],
+    "num_class": 4,
+    "labels": {
+        "background": 0,
+        "left ventricle": 1,
+        "myocardium": 2,
+        "right ventricle": 3
+    }
+}
