@@ -7,5 +7,10 @@ Specifically, we propose a novel Bayesian Joint Diffusion (BJD) model for high-q
 Furthermore, we develop a Task-Oriented Adapter (TOA) that recalibrates prompt embeddings to modulate data synthesis with higher scalability for diverse tasks.
 Experiments on incremental tasks (cardiac, fundus and prostate segmentation) demonstrate the clear advantage of our method for relieving concurrent appearance and semantic forgetting.
 
+## Usage
 
-# 1. Data Pre-processing
+### 1. Data Pre-processing
+Data of three tasks: Cardiac, Fundus, Prostate can be downloaded from [Cardiac](https://www.ub.edu/mnms/), [Fundus](https://ieeexplore.ieee.org/document/9163289) and [Prostate](https://ieeexplore.ieee.org/document/9000851). The pre-processing pipeline of three tasks follows their works described in their papers.
+
+### 2. Model Training
+Firstly, run `train_bjdwithtoa.sh` to learn three tasks sequentially to simulate image-mask pair of each task. The training hyper-parameters can be set in the code. Then, run `train_segnetwork.py` to update the segmentation network sequentially. Similarly, the training hyper-parameters can be set in the `options\base_options.py`.
