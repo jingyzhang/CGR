@@ -6,3 +6,6 @@ To solve this issue, we propose a Comprehensive Generative Replay (CGR) framewor
 Specifically, we propose a novel Bayesian Joint Diffusion (BJD) model for high-quality synthesis of image-mask pairs with their correspondence explicitly preserved by conditional denoising.
 Furthermore, we develop a Task-Oriented Adapter (TOA) that recalibrates prompt embeddings to modulate data synthesis with higher scalability for diverse tasks.
 Experiments on incremental tasks (cardiac, fundus and prostate segmentation) demonstrate the clear advantage of our method for relieving concurrent appearance and semantic forgetting.
+
+
+# 1. Data Pre-processing
