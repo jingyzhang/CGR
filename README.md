@@ -7,6 +7,8 @@ Specifically, we propose a novel Bayesian Joint Diffusion (BJD) model for high-q
 Furthermore, we develop a Task-Oriented Adapter (TOA) that recalibrates prompt embeddings to modulate data synthesis with higher scalability for diverse tasks.
 Experiments on incremental tasks (cardiac, fundus and prostate segmentation) demonstrate the clear advantage of our method for relieving concurrent appearance and semantic forgetting.
 
+![overview](overview_small_3.pdf)
+
 ## Usage
 
 ### 1. Data Pre-processing
